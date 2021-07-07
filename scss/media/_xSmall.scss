@@ -1,0 +1,29 @@
+@media (max-width: 360px) {
+   .content {   
+      &__header {      
+         display: flex;
+         flex-direction: column;         
+         max-width: 280px;         
+      }
+   
+      &__menu {
+         display: flex;                
+         max-width: 280px;                    
+      }
+   
+      &__body {
+         max-width: 280px;         
+      }
+   
+      &__news { 
+         max-width: 280px;              
+      }
+   }
+   
+   .header {
+      &__right-login::before {                 
+         top: 1px;
+         left: 83px;         
+      } 
+   }
+}

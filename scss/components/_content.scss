@@ -1,0 +1,41 @@
+// контект
+.body {
+   padding: 50px 0 62px 0px;    
+
+   &__title {
+      color: #282828;
+      font-family: 'Oswald', sans-serif;
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 60px;  
+      letter-spacing: normal;     
+      width: 820px;   
+   }
+
+   &__content {      
+      font-family: "PT Serif";
+      font-size: 24px;
+      line-height: 36px;
+      margin-top: 38px;
+      width: 820px;  
+   }
+
+   &__subtitle {
+      margin-top: 33px;      
+      font-family: "PT Serif";
+      line-height: 27px;
+      font-weight: 700;
+   }
+
+   &__list {
+      margin-top: 12px;
+      margin-left: 20px;
+   }
+
+   &__list-item {
+      font-family: "PT Serif";
+      font-weight: 400;
+      line-height: 26px;
+      list-style-type: disc;
+   }
+}

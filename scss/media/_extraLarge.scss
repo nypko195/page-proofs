@@ -1,0 +1,20 @@
+@media (max-width: 1200px) {
+   .content {
+   
+      &__header {         
+         max-width: 992px;         
+      }
+   
+      &__menu {         
+         max-width: 992px;             
+      }
+   
+      &__body {
+         max-width: 992px;         
+      }
+   
+      &__news {     
+         max-width: 992px;         
+      }
+   }   
+}

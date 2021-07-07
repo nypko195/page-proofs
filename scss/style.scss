@@ -1,0 +1,36 @@
+@import "components/_wrapper.scss";
+@import "zeroing.scss";
+@import "components/_header.scss";
+@import "components/_menu.scss";
+@import "components/_content.scss";
+@import "components/_news.scss";
+
+@import "media/_extraLarge.scss";
+@import "media/_large.scss";
+@import "media/_medium.scss";
+@import "media/_small.scss";
+@import "media/_xSmall.scss";
+
+
+body {
+   position: relative;
+   font-family: 'Oswald', sans-serif;   
+   background-color: #ffffff;
+   font-size: 18px;  
+}
+
+//кнопка возврата снизу.
+.return {
+   position: absolute;
+   top: 95%;
+   right: 1%;
+   cursor: pointer;
+}
+
+
+
+
+
+
+
+

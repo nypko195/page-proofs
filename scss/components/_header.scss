@@ -1,0 +1,63 @@
+// шапка
+.header {   
+   padding: 30px 0 30px;
+
+   &__left {
+      display: flex;
+   }
+
+   &__left-sitename {
+      color: #eb3c00;
+      font-size: 50px;
+      font-weight: 700;
+      text-transform: uppercase;
+      text-align: left;      
+   }
+
+   &__left-first {
+      opacity: 0.5;
+      color: #282828;
+      font-family: "PT Serif";
+      font-size: 18px;
+      font-style: italic;
+      align-self: center;
+      margin-left: 11px;
+      margin-top: 8%;
+   }
+
+   &__right {
+      display: flex;
+   }
+
+   &__right-login {     
+      position: relative;
+      background-color: #ffffff;
+      margin-right: 33px;
+      text-transform: uppercase;
+      font-style: italic;
+      font-size: 13px;
+      font-family: "PT Serif";      
+   }
+
+   &__right-login::before {
+      content: '';
+      position: absolute;
+      top: 17px;
+      left: -21px;
+      background-image: url(../img/icon/key.png);
+      width: 13px;
+      height: 13px;
+   }
+
+   &__right-contact {
+      color: #ffffff;
+      background-color: #ee4400;
+      padding: 15px 55px 15px 55px;
+      text-transform: uppercase;
+      font-style: italic;
+      font-size: 13px;
+      font-family: "PT Serif";
+   }
+}
+
+

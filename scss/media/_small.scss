@@ -1,0 +1,39 @@
+@media (max-width: 576px) {
+   .content {
+   
+      &__header {      
+         display: flex;
+         flex-direction: column;         
+         max-width: 360px;         
+      }
+   
+      &__menu {
+         display: flex;                
+         max-width: 360px;                    
+      }
+   
+      &__body {
+         max-width: 360px;         
+      }
+   
+      &__news { 
+         max-width: 360px;              
+      }
+   }
+   .header {
+      &__right-login::before {                 
+         top: 2px;
+         left: 120px;         
+      } 
+   }
+   .news {
+      &__flex {                
+         margin: 0; 
+         justify-content: center;
+      }
+
+      &__item {
+         margin-top: 10px;
+      }
+   } 
+}   

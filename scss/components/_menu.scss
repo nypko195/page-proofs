@@ -1,0 +1,46 @@
+// меню
+.menu {     
+   background-color: #282828;
+   vertical-align: center; 
+   
+   &__burger {
+      display: none;
+   }
+
+   &__left {
+      display: flex;
+   }    
+
+   &__left-btn {      
+      padding: 27px 15.5px;       
+      &:hover {
+         background-color: #eb3c00;
+         width: 100%;                 
+      }
+   }
+
+   &__left-btn-a {      
+      font-size: 20px;
+      text-transform: uppercase;
+      color: #ffffff;
+      letter-spacing: 0.9px;
+   }
+
+   &__right {
+      position: relative;
+   }
+   
+   &__right::after{
+      content: '';
+      position: absolute;
+      top: 15px;
+      left: 243px;
+      background: url(../img/icon/search_icon.png) center;      
+      width: 17px;
+      height: 17px;
+   }
+   &__right-input {     
+      width: 269px;
+      padding: 14px 0px 13px 12px;      
+   }
+}

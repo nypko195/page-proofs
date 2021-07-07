@@ -1,0 +1,33 @@
+@media (max-width: 992px) {
+   .content {
+   
+      &__header {        
+         max-width: 768px;                 
+      }
+   
+      &__menu {         
+         max-width: 768px;
+            
+      }
+   
+      &__body {
+         max-width: 768px;         
+      }
+   
+      &__news {     
+         max-width: 768px;          
+      }
+   }
+   
+   .body {
+      padding: 25px 0 31px 0px;          
+   
+      &__title {                   
+         width: 100%;  
+      }
+   
+      &__content {                   
+         width: 100%;           
+      }
+   }   
+}

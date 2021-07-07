@@ -1,0 +1,45 @@
+// блок с картинками
+.news {
+   position: relative;    
+
+   &__subtitle {
+      color: #eb3c00;
+      font-size: 14px;
+      color: #eb3c00;
+      text-transform: uppercase;
+      font-weight: 700;
+      margin-bottom: 24px;
+   }
+
+   &__flex {
+      display: flex;
+      flex-wrap: wrap;       
+      margin: 0 -10px; 
+   }  
+
+   img {      
+      width: 172px;
+      height: 115px;       
+   }
+   
+   &__item {
+      cursor: pointer; 
+      padding: 0 10px;
+      flex: 0 0 16.6%;            
+   }
+
+   &__item-subtitle {
+      margin-top: 10px;
+   }
+   &__return {
+      position: absolute;
+      top: 99%;
+      right: 1%;
+   }
+   &__return::before {
+      content: '^';
+      position: absolute;
+      top: 2px;
+      left: -13px;
+   }
+}
